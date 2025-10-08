@@ -1,0 +1,111 @@
+/* ===== Global Styles ===== */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+header, nav, footer {
+    background-color: #f8f8f8;
+    padding: 1em 2em;
+}
+
+nav a {
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2em;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+/* ===== Header / Navigation ===== */
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    border-top: 1px solid #ddd;
+}
+
+/* ===== Home Page ===== */
+.home-intro {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.home-intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.home-intro p {
+    font-size: 1.2em;
+}
+
+/* ===== Contact Form ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    padding: 0.8em;
+    border: none;
+    background-color: #222;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
